@@ -1,0 +1,53 @@
+services:
+  mysql:
+    container_name: mysql
+    image: dbimage
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 1.5G
+        reservations:
+          cpus: "0.25"
+          memory: 1G
+    restart: unless-stopped
+    ports:
+      - "5555:3306"
+    networks:
+      - sql_network
+      - quiz_network
+    volumes:
+      - mysql:/mysql/navya/
+  
+  quiz:
+    container_name: quiz
+    image: appimage1
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 128M
+        reservations:
+          cpus: "0.25"
+          memory: 64M
+    restart: unless-stopped
+    ports:
+      - "4444:8080"
+    networks:
+      - quiz_network
+      - sql_network
+    volumes:
+      - quiz:/quiz/navya/
+    depends_on:
+      - "mysql"
+
+networks:
+  quiz_network:
+    driver: bridge
+  sql_network:
+    driver: bridge
+
+volumes:
+  mysql:
+  quiz:
+
