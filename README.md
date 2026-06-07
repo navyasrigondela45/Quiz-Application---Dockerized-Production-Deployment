@@ -1,0 +1,2 @@
+# Quiz-Application---Dockerized-Pre-Production-Deployment
+This project is a Java-based Quiz Application deployed in a Pre-Production Environment. It allows users to register,log in,take quiz,review results, and track attempts. This containerized using Docker Compose.  This was built to gain hands-on in multi-container deployments,DB integration,and real-world troubleshooting of containerized applications.
