@@ -1,7 +1,7 @@
 services:
 
   mysql:
-    image: navyasrig/prod:dbimage
+    image: navyasrig/project_prod:dbimage
     deploy:
       replicas: 1
       resources:
@@ -29,7 +29,7 @@ services:
       MYSQL_USER: navya
 
   quiz:
-    image: navyasrig/prod:appimage
+    image: navyasrig/project_prod:appimage
     deploy:
       replicas: 5
       resources:
