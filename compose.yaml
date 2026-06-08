@@ -1,7 +1,6 @@
 services:
 
-   mysql:
-    container_name: mysql
+  mysql:
     image: navyasrig/prod:dbimage
     deploy:
       replicas: 1
@@ -30,7 +29,6 @@ services:
       MYSQL_USER: navya
 
   quiz:
-    container_name: quiz
     image: navyasrig/prod:appimage
     deploy:
       replicas: 2
@@ -50,11 +48,10 @@ services:
     volumes:
       - quiz:/quiz/navya/
 
-
-
 networks:
   quiz_network:
     driver: overlay
+
   sql_network:
     driver: overlay
 
