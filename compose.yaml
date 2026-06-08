@@ -31,7 +31,7 @@ services:
   quiz:
     image: navyasrig/prod:appimage
     deploy:
-      replicas: 2
+      replicas: 5
       resources:
         limits:
           cpus: "0.5"
@@ -41,7 +41,7 @@ services:
           memory: 64M
     restart: unless-stopped
     ports:
-      - "4444:8080"
+      - "1111:8080"
     networks:
       - quiz_network
       - sql_network
