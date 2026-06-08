@@ -3,7 +3,7 @@ services:
   mysql:
     image: navyasrig/project_prod:dbimage
     deploy:
-      replicas: 1
+      replicas: 3
       resources:
         limits:
           cpus: "0.5"
