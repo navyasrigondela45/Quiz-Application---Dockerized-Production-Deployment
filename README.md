@@ -12,4 +12,11 @@ TRIVY SCAN
 <img width="959" height="443" alt="image" src="https://github.com/user-attachments/assets/fcb0e075-c2c3-42a5-a46d-38d899e6fd99" />
 DOCKERHUB IMAGES
 <img width="959" height="431" alt="image" src="https://github.com/user-attachments/assets/99d06b5e-ec38-4db2-a9c2-56db1799132e" />
+docker node ls
+<img width="773" height="83" alt="image" src="https://github.com/user-attachments/assets/02bfb7b9-fda2-4ecb-8450-b23e31fe0142" />
+docker secret ls
+<img width="704" height="64" alt="image" src="https://github.com/user-attachments/assets/eb80349a-dd2b-4bff-97b5-03be31d07e48" />
+docker stack, service ls
+<img width="861" height="118" alt="image" src="https://github.com/user-attachments/assets/cd60ef18-4749-4518-9351-81b55576f99d" />
+
 
