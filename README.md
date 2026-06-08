@@ -18,5 +18,15 @@ docker secret ls
 <img width="704" height="64" alt="image" src="https://github.com/user-attachments/assets/eb80349a-dd2b-4bff-97b5-03be31d07e48" />
 docker stack, service ls
 <img width="861" height="118" alt="image" src="https://github.com/user-attachments/assets/cd60ef18-4749-4518-9351-81b55576f99d" />
+login page:
+<img width="959" height="443" alt="image" src="https://github.com/user-attachments/assets/f3480457-8cbf-42f0-b27c-852700d88595" />
+questions:
+<img width="958" height="437" alt="image" src="https://github.com/user-attachments/assets/b1eacd60-aee0-4760-8f61-f7fc315ebac4" />
+result:
+<img width="959" height="467" alt="image" src="https://github.com/user-attachments/assets/30118ea5-5a1b-41c0-9444-b6a9958d4851" />
+history:
+<img width="959" height="443" alt="image" src="https://github.com/user-attachments/assets/c0d77390-5d9d-4399-8dab-beddf6701370" />
+
+
 
 
