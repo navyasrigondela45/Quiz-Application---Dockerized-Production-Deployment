@@ -1,6 +1,8 @@
  ## Architecture:
   
 <img width="941" height="496" alt="image" src="https://github.com/user-attachments/assets/9fa149b6-82ae-4e5f-996e-7f241b1ed9d5" />
+<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/3fce7cbc-21d8-4a6a-a82d-316ae217af2e" />
+<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/5b9b7c41-040e-4b75-9a50-cbb21c49ab52" />
 
 ## GITHUB-REPO
 
